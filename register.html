@@ -55,22 +55,43 @@ https://templatemo.com/tm-585-barber-shop
 
 
                             <li class="nav-item">
-                                <p>Don't have an account? create one</p>
-                                <a class="nav-link click-scroll" href="register.html">Register</a>
+                                <p>Already have an account? </p>
+                                <a class="nav-link click-scroll" href="login.html">Login</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
-                <div class="col-md-8  margin-top-login ms-sm-auto col-lg-9 p-0">
+                
+                <div class="col-md-8 ms-sm-auto col-lg-9 p-0">
                     <section class=" d-flex justify-content-center align-items-center" id="section_1">
-                            
-                            <div class="container mt-5">
-                                <h3 class="pb-5">Login Into Your Account</h3>
-                                <form class="row g-3 col-md-6" >
 
+                            <div class="container mt-5">
+                                <h3 class="pb-5">Create new account</h3>
+                                <form class="row g-3 col-md-6" >
+                                    <div class="mb-3">
+                                        <label for="firstname" class="form-label">Firstname : </label>
+                                        <input type="text" class="form-control" id="firstname" placeholder="Firstname">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="surname" class="form-label">Surname : </label>
+                                        <input type="text" class="form-control" id="surname" placeholder="Surname">
+                                      </div>
                                       <div class="mb-3">
                                         <label for="email" class="form-label">Email : </label>
                                         <input type="text" class="form-control" id="email" placeholder="Email">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="age" class="form-label">Age : </label>
+                                        <input type="number" class="form-control" id="age" placeholder="Age">
+                                      </div>
+
+                                      <div class="mb-3">
+                                        <label for="age" class="form-label">Gender : </label>
+                                        <select class="form-select" aria-label="" >
+                                            <option selected>Select Gender</option>
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                          </select>
                                       </div>
 
                                       <div class="mb-3">
@@ -80,7 +101,7 @@ https://templatemo.com/tm-585-barber-shop
 
 
                                       <div class="mb-1">
-                                        <input type="submit" class="btn btn-primary" value="Login">
+                                        <input type="submit" class="btn btn-primary" value="Register">
                                       </div>
                                 </form>
                                 
@@ -96,6 +117,7 @@ https://templatemo.com/tm-585-barber-shop
                             </div>
                     </section>
             </div>
+
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

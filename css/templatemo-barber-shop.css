@@ -841,3 +841,10 @@ strong {
   }
 }
 
+
+
+.margin-top-login{
+  margin-top: 12%;
+  /* transform: translateY(-50%); */
+  /* background-color: red; */
+}
